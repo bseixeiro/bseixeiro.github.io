@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    position : fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.icone{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.numero, .mail, .reseaux, .adresse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: none;
+    background-color: lightgrey;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.nav-right,
+.nav-left,
+.nav-button,
+.nav-a{
+    height: 15vh;
+}
+.nav {
+    background: rgb(38,26,255);
+    background: linear-gradient(90deg, rgba(38,26,255,1) 0%, rgba(19,145,255,1) 45%, rgba(11,39,255,1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.nav-right div{
+    width: 33%;
+}
+
+.nav-a, .nav-button{
+    display: block;
+    width: 100%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-button {
+    border: none;
+    background: none;
+}
+
+.nav-button:hover{
+    background-color: rgb(27, 99, 255);
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.nav-left .logo{
+    margin: 0px 5px;
+}
+
+.nav-left p{
+    font-size: 2em;
+    margin: 0px ;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px black;
+    color: white;
+}
+
+.nav-left span{
+    font-size: 0.75em;
+    color: white;
+}
+
+/*--------------------Details--------------------------*/
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    position: relative;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+
+  /*--------------------Fin Details--------------------------*/
+
+  /*--------------------Index--------------------------*/
+  #puceBackground{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  h1{
+    padding: 10px;
+    position: relative;
+    top: 75vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background: rgb(226,104,21);
+    background: linear-gradient(0deg, rgba(226,104,21,0.5) 0%, rgba(0,0,0,0.5) 56%); 
+}
+
+.after{
+    position: relative;
+    top: 100vh;
+}
+
+.eleve, .formation{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin: 10vh 0px;
+}
+
+.eleve img, .formation img{
+    width: 50%;
+}
+ 
+.texte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    border: solid 3px black;
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.formation .texte{
+    width: 40%;
+}
+
+  #text{
+    font-size: 0.9em;
+  }
+
+  /*--------------------Fin Index--------------------------*/
+
+  footer{
+    background-color: grey;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div{
+    margin: 5px 15px;
+    padding: 5px;
+}
+
